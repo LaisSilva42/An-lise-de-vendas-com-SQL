@@ -1,4 +1,4 @@
-# Verifica os valores mínimos e máximos e atualiza para a mediana os valores fora do intervalo aceitável.
+-- Verifica os valores mínimos e máximos e atualiza para a mediana os valores fora do intervalo aceitável.
 
 SELECT nome_produto, MIN(preco), MAX(preco) from produtos
 GROUP BY nome_produto;
